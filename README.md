@@ -9,7 +9,7 @@
 2. pip install -r requirements.txt
 3. docker-compose up -d (PostgreSQL 컨테이너 실행)
 4. python manage.py migrate
-
+5. python manage.py create_dummy_data // 더미 데이터 삽입
 ... 작성중...
 
 ## Reference
