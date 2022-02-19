@@ -9,8 +9,11 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+import os
 from pathlib import Path
+
+# Django ORM을 주피터 노트북에서 사용하기 위해서 설정
+os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -141,10 +144,9 @@ LOGGING = {
         },
     },
     'loggers': {
-        'djongo': {
-            'level': 'DEBUG',
+        'django.db.backends': {
             'handlers': ['console'],
-            'propagate': False,                        
+            'level' : 'DEBUG'
         },
     },
 }
