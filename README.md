@@ -19,3 +19,4 @@
 - [Django ORM Cookbook(ko)](https://django-orm-cookbook-ko.readthedocs.io/en/latest/)
 - [Django ORM (QuerySet)구조와 원리 그리고 최적화전략 - 김성렬님 ](https://www.youtube.com/watch?v=EZgLfDrUlrk)
   - [세션 자료](https://github.com/KimSoungRyoul/Django_ORM_pratice_project)
+- [Django ORM 조금 더 깊게 살펴보기 - 한섬기님](https://www.youtube.com/watch?v=lhMrT_AMzGU)
