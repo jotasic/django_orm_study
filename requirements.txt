@@ -4,7 +4,7 @@ certifi==2021.10.8
 Django==4.0.2
 django-extensions==3.1.5
 sqlparse==0.4.2
-ipython==8.1.0
+ipython==8.2.0
 jupyter==1.0.0
 jupyter-client==7.1.2
 jupyter-console==6.4.0
